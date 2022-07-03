@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+background:url(bg.jpg);
+height: 100vh;
+background-size: 100% 100%;
+}
+
+.container .navbar{
+    height: 80px;
+    width: 100%;
+    background:rgba(22,112,214,0.3);
+   
+}
+
+/* NAVBAR */
+
+.navbar .logo{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 120px;
+    
+}
+
+.navbar .logo a{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    font-size: 15px;
+    display: inline-block;
+    margin: 30px 50px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.center h1{
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.center h2{
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+
+.center button{
+    font-size: 12px;
+    text-align:center;
+    letter-spacing: 1px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    transition: .4s;
+}
+
+.center button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: none;
+}
